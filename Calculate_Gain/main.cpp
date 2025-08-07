@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
   TApplication app("app", &argc, argv);
 
   // ----------------------------
-  // ① パラメータ設定
+  // 1 パラメータ設定
   // ----------------------------
   const double theta = 45.0;           // [deg]
   const double spacing_mm = 6.0;       // [mm]
@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
   std::cout << "生成される種（電子）数 = " << nElectrons << std::endl;
 
   // ----------------------------
-  // ② 検出器構成
+  // 2 検出器構成
   // ----------------------------
   Garfield::MediumMagboltz* gas = nullptr;
   Garfield::ComponentAnalyticField* cmp = nullptr;
@@ -37,13 +37,13 @@ int main(int argc, char* argv[]) {
   std::cout << "Checkpoint1" << std::endl;
 
   // ----------------------------
-  // ③ 電子の注入
+  // 3 電子の注入
   // ----------------------------
   InjectElectrons(sensor, nElectrons);
   std::cout << "Checkpoint2" << std::endl;
 
   // ----------------------------
-  // ④ 各アノードの波形表示
+  // 4 各アノードの波形表示
   // ----------------------------
   auto viewL = new Garfield::ViewSignal();
   auto viewC = new Garfield::ViewSignal();
@@ -64,7 +64,7 @@ int main(int argc, char* argv[]) {
   std::cout << "Checkpoint3" << std::endl;
 
   // ----------------------------
-  // ⑤ 信号積分とゲイン計算
+  // 5 信号積分とゲイン計算
   // ----------------------------
   const std::vector<std::string> electrodes = {"anodeL", "anodeC", "anodeR"};
   const double e_C = 1.602e-19;
@@ -82,7 +82,7 @@ int main(int argc, char* argv[]) {
   std::strftime(timeStr, sizeof(timeStr), "%Y%m%d-%H%M%S", std::localtime(&t));
 
   // ----------------------------
-  // ⑥ 出力ディレクトリ作成とファイル保存
+  // 6 出力ディレクトリ作成とファイル保存
   // ----------------------------
   const std::string outDir = "results";
   std::ostringstream subdir;
@@ -137,7 +137,7 @@ int main(int argc, char* argv[]) {
   ofs.close();
   std::cout << "→ 結果ファイル書き出し: " << txtname.str() << std::endl;
 
-  // --- PDF出力 ---
+  // --- log出力 ---
   for (const auto& [view, label] : {
       std::make_pair(viewL, "anodeL"),
       std::make_pair(viewC, "anodeC"),
