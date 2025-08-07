@@ -1,0 +1,22 @@
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+MediumMagboltz::GetElectronCollisionRate:
+    Rate at 525.703 eV is not included in the current table.
+    Increasing energy range to 551.988 eV.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+AvalancheMicroscopic::TransportElectrons: Starting point is outside the active area.
+Info in <TCanvas::Print>: pdf file results/VA300_VC5200_20250805-125156/signal_anodeL.pdf has been created
+Info in <TCanvas::Print>: pdf file results/VA300_VC5200_20250805-125156/signal_anodeC.pdf has been created
+Info in <TCanvas::Print>: pdf file results/VA300_VC5200_20250805-125156/signal_anodeR.pdf has been created

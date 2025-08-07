@@ -1,0 +1,24 @@
+### Simulation Results
+DateTime: 20250805-123944
+theta = 45 deg
+dEdx = 2.4 MeV*cm^2/g
+rho  = 0.001796 g/cm^3
+ionE = 2.5e-05 MeV
+Path Length = 0.848528 cm
+deltaE = 0.0036575 MeV
+nElectrons = 146
+Anode Voltage: -300 V
+Cathode Voltage: -5200 V
+
+[anodeL]
+  積分電荷量: -0.00656876 fC
+  ゲイン     : -0.280846
+
+[anodeC]
+  積分電荷量: 0.0518699 fC
+  ゲイン     : 2.21769
+
+[anodeR]
+  積分電荷量: -0.00520034 fC
+  ゲイン     : -0.222339
+

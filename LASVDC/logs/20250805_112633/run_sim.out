@@ -1,0 +1,324 @@
+生成される種（電子）数 = 146
+MediumMagboltz::SetComposition: Ar/iC4H10 (71.4/28.6)
+Sensor::AddElectrode:
+    Added readout electrode "anodeL".
+    All signals are reset.
+Sensor::AddElectrode:
+    Added readout electrode "anodeC".
+    All signals are reset.
+Sensor::AddElectrode:
+    Added readout electrode "anodeR".
+    All signals are reset.
+Checkpoint1
+Checkpoint: Electron injection loop begins.
+[Electron 1] x = 0.9, y = 1, z = 0.0
+[Electron 1] injected successfully.
+[Electron 2] x = 0.887586, y = 0.986207, z = 0.0
+[Electron 2] injected successfully.
+[Electron 3] x = 0.875172, y = 0.972414, z = 0.0
+[Electron 3] injected successfully.
+[Electron 4] x = 0.862759, y = 0.958621, z = 0.0
+[Electron 4] injected successfully.
+[Electron 5] x = 0.850345, y = 0.944828, z = 0.0
+[Electron 5] injected successfully.
+[Electron 6] x = 0.837931, y = 0.931034, z = 0.0
+[Electron 6] injected successfully.
+[Electron 7] x = 0.825517, y = 0.917241, z = 0.0
+[Electron 7] injected successfully.
+[Electron 8] x = 0.813103, y = 0.903448, z = 0.0
+[Electron 8] injected successfully.
+[Electron 9] x = 0.80069, y = 0.889655, z = 0.0
+[Electron 9] injected successfully.
+[Electron 10] x = 0.788276, y = 0.875862, z = 0.0
+[Electron 10] injected successfully.
+[Electron 11] x = 0.775862, y = 0.862069, z = 0.0
+[Electron 11] injected successfully.
+[Electron 12] x = 0.763448, y = 0.848276, z = 0.0
+[Electron 12] injected successfully.
+[Electron 13] x = 0.751034, y = 0.834483, z = 0.0
+[Electron 13] injected successfully.
+[Electron 14] x = 0.738621, y = 0.82069, z = 0.0
+[Electron 14] injected successfully.
+[Electron 15] x = 0.726207, y = 0.806897, z = 0.0
+[Electron 15] injected successfully.
+[Electron 16] x = 0.713793, y = 0.793103, z = 0.0
+[Electron 16] injected successfully.
+[Electron 17] x = 0.701379, y = 0.77931, z = 0.0
+[Electron 17] injected successfully.
+[Electron 18] x = 0.688966, y = 0.765517, z = 0.0
+[Electron 18] injected successfully.
+[Electron 19] x = 0.676552, y = 0.751724, z = 0.0
+[Electron 19] injected successfully.
+[Electron 20] x = 0.664138, y = 0.737931, z = 0.0
+[Electron 20] injected successfully.
+[Electron 21] x = 0.651724, y = 0.724138, z = 0.0
+[Electron 21] injected successfully.
+[Electron 22] x = 0.63931, y = 0.710345, z = 0.0
+[Electron 22] injected successfully.
+[Electron 23] x = 0.626897, y = 0.696552, z = 0.0
+[Electron 23] injected successfully.
+[Electron 24] x = 0.614483, y = 0.682759, z = 0.0
+[Electron 24] injected successfully.
+[Electron 25] x = 0.602069, y = 0.668966, z = 0.0
+[Electron 25] injected successfully.
+[Electron 26] x = 0.589655, y = 0.655172, z = 0.0
+[Electron 26] injected successfully.
+[Electron 27] x = 0.577241, y = 0.641379, z = 0.0
+[Electron 27] injected successfully.
+[Electron 28] x = 0.564828, y = 0.627586, z = 0.0
+[Electron 28] injected successfully.
+[Electron 29] x = 0.552414, y = 0.613793, z = 0.0
+[Electron 29] injected successfully.
+[Electron 30] x = 0.54, y = 0.6, z = 0.0
+[Electron 30] injected successfully.
+[Electron 31] x = 0.527586, y = 0.586207, z = 0.0
+[Electron 31] injected successfully.
+[Electron 32] x = 0.515172, y = 0.572414, z = 0.0
+[Electron 32] injected successfully.
+[Electron 33] x = 0.502759, y = 0.558621, z = 0.0
+[Electron 33] injected successfully.
+[Electron 34] x = 0.490345, y = 0.544828, z = 0.0
+[Electron 34] injected successfully.
+[Electron 35] x = 0.477931, y = 0.531034, z = 0.0
+[Electron 35] injected successfully.
+[Electron 36] x = 0.465517, y = 0.517241, z = 0.0
+[Electron 36] injected successfully.
+[Electron 37] x = 0.453103, y = 0.503448, z = 0.0
+[Electron 37] injected successfully.
+[Electron 38] x = 0.44069, y = 0.489655, z = 0.0
+[Electron 38] injected successfully.
+[Electron 39] x = 0.428276, y = 0.475862, z = 0.0
+[Electron 39] injected successfully.
+[Electron 40] x = 0.415862, y = 0.462069, z = 0.0
+[Electron 40] injected successfully.
+[Electron 41] x = 0.403448, y = 0.448276, z = 0.0
+[Electron 41] injected successfully.
+[Electron 42] x = 0.391034, y = 0.434483, z = 0.0
+[Electron 42] injected successfully.
+[Electron 43] x = 0.378621, y = 0.42069, z = 0.0
+[Electron 43] injected successfully.
+[Electron 44] x = 0.366207, y = 0.406897, z = 0.0
+[Electron 44] injected successfully.
+[Electron 45] x = 0.353793, y = 0.393103, z = 0.0
+[Electron 45] injected successfully.
+[Electron 46] x = 0.341379, y = 0.37931, z = 0.0
+[Electron 46] injected successfully.
+[Electron 47] x = 0.328966, y = 0.365517, z = 0.0
+[Electron 47] injected successfully.
+[Electron 48] x = 0.316552, y = 0.351724, z = 0.0
+[Electron 48] injected successfully.
+[Electron 49] x = 0.304138, y = 0.337931, z = 0.0
+[Electron 49] injected successfully.
+[Electron 50] x = 0.291724, y = 0.324138, z = 0.0
+[Electron 50] injected successfully.
+[Electron 51] x = 0.27931, y = 0.310345, z = 0.0
+[Electron 51] injected successfully.
+[Electron 52] x = 0.266897, y = 0.296552, z = 0.0
+[Electron 52] injected successfully.
+[Electron 53] x = 0.254483, y = 0.282759, z = 0.0
+[Electron 53] injected successfully.
+[Electron 54] x = 0.242069, y = 0.268966, z = 0.0
+[Electron 54] injected successfully.
+[Electron 55] x = 0.229655, y = 0.255172, z = 0.0
+[Electron 55] injected successfully.
+[Electron 56] x = 0.217241, y = 0.241379, z = 0.0
+[Electron 56] injected successfully.
+[Electron 57] x = 0.204828, y = 0.227586, z = 0.0
+[Electron 57] injected successfully.
+[Electron 58] x = 0.192414, y = 0.213793, z = 0.0
+[Electron 58] injected successfully.
+[Electron 59] x = 0.18, y = 0.2, z = 0.0
+[Electron 59] injected successfully.
+[Electron 60] x = 0.167586, y = 0.186207, z = 0.0
+[Electron 60] injected successfully.
+[Electron 61] x = 0.155172, y = 0.172414, z = 0.0
+[Electron 61] injected successfully.
+[Electron 62] x = 0.142759, y = 0.158621, z = 0.0
+[Electron 62] injected successfully.
+[Electron 63] x = 0.130345, y = 0.144828, z = 0.0
+[Electron 63] injected successfully.
+[Electron 64] x = 0.117931, y = 0.131034, z = 0.0
+[Electron 64] injected successfully.
+[Electron 65] x = 0.105517, y = 0.117241, z = 0.0
+[Electron 65] injected successfully.
+[Electron 66] x = 0.0931034, y = 0.103448, z = 0.0
+[Electron 66] injected successfully.
+[Electron 67] x = 0.0806897, y = 0.0896552, z = 0.0
+[Electron 67] injected successfully.
+[Electron 68] x = 0.0682759, y = 0.0758621, z = 0.0
+[Electron 68] injected successfully.
+[Electron 69] x = 0.0558621, y = 0.062069, z = 0.0
+[Electron 69] injected successfully.
+[Electron 70] x = 0.0434483, y = 0.0482759, z = 0.0
+[Electron 70] injected successfully.
+[Electron 71] x = 0.0310345, y = 0.0344828, z = 0.0
+[Electron 71] injected successfully.
+[Electron 72] x = 0.0186207, y = 0.0206897, z = 0.0
+[Electron 72] injected successfully.
+[Electron 73] x = 0.0062069, y = 0.00689655, z = 0.0
+[Electron 73] injected successfully.
+[Electron 74] x = -0.0062069, y = -0.00689655, z = 0.0
+[Electron 74] injected successfully.
+[Electron 75] x = -0.0186207, y = -0.0206897, z = 0.0
+[Electron 75] injected successfully.
+[Electron 76] x = -0.0310345, y = -0.0344828, z = 0.0
+[Electron 76] injected successfully.
+[Electron 77] x = -0.0434483, y = -0.0482759, z = 0.0
+[Electron 77] injected successfully.
+[Electron 78] x = -0.0558621, y = -0.062069, z = 0.0
+[Electron 78] injected successfully.
+[Electron 79] x = -0.0682759, y = -0.0758621, z = 0.0
+[Electron 79] injected successfully.
+[Electron 80] x = -0.0806897, y = -0.0896552, z = 0.0
+[Electron 80] injected successfully.
+[Electron 81] x = -0.0931034, y = -0.103448, z = 0.0
+[Electron 81] injected successfully.
+[Electron 82] x = -0.105517, y = -0.117241, z = 0.0
+[Electron 82] injected successfully.
+[Electron 83] x = -0.117931, y = -0.131034, z = 0.0
+[Electron 83] injected successfully.
+[Electron 84] x = -0.130345, y = -0.144828, z = 0.0
+[Electron 84] injected successfully.
+[Electron 85] x = -0.142759, y = -0.158621, z = 0.0
+[Electron 85] injected successfully.
+[Electron 86] x = -0.155172, y = -0.172414, z = 0.0
+[Electron 86] injected successfully.
+[Electron 87] x = -0.167586, y = -0.186207, z = 0.0
+[Electron 87] injected successfully.
+[Electron 88] x = -0.18, y = -0.2, z = 0.0
+[Electron 88] injected successfully.
+[Electron 89] x = -0.192414, y = -0.213793, z = 0.0
+[Electron 89] injected successfully.
+[Electron 90] x = -0.204828, y = -0.227586, z = 0.0
+[Electron 90] injected successfully.
+[Electron 91] x = -0.217241, y = -0.241379, z = 0.0
+[Electron 91] injected successfully.
+[Electron 92] x = -0.229655, y = -0.255172, z = 0.0
+[Electron 92] injected successfully.
+[Electron 93] x = -0.242069, y = -0.268966, z = 0.0
+[Electron 93] injected successfully.
+[Electron 94] x = -0.254483, y = -0.282759, z = 0.0
+[Electron 94] injected successfully.
+[Electron 95] x = -0.266897, y = -0.296552, z = 0.0
+[Electron 95] injected successfully.
+[Electron 96] x = -0.27931, y = -0.310345, z = 0.0
+[Electron 96] injected successfully.
+[Electron 97] x = -0.291724, y = -0.324138, z = 0.0
+[Electron 97] injected successfully.
+[Electron 98] x = -0.304138, y = -0.337931, z = 0.0
+[Electron 98] injected successfully.
+[Electron 99] x = -0.316552, y = -0.351724, z = 0.0
+[Electron 99] injected successfully.
+[Electron 100] x = -0.328966, y = -0.365517, z = 0.0
+[Electron 100] injected successfully.
+[Electron 101] x = -0.341379, y = -0.37931, z = 0.0
+[Electron 101] injected successfully.
+[Electron 102] x = -0.353793, y = -0.393103, z = 0.0
+[Electron 102] injected successfully.
+[Electron 103] x = -0.366207, y = -0.406897, z = 0.0
+[Electron 103] injected successfully.
+[Electron 104] x = -0.378621, y = -0.42069, z = 0.0
+[Electron 104] injected successfully.
+[Electron 105] x = -0.391034, y = -0.434483, z = 0.0
+[Electron 105] injected successfully.
+[Electron 106] x = -0.403448, y = -0.448276, z = 0.0
+[Electron 106] injected successfully.
+[Electron 107] x = -0.415862, y = -0.462069, z = 0.0
+[Electron 107] injected successfully.
+[Electron 108] x = -0.428276, y = -0.475862, z = 0.0
+[Electron 108] injected successfully.
+[Electron 109] x = -0.44069, y = -0.489655, z = 0.0
+[Electron 109] injected successfully.
+[Electron 110] x = -0.453103, y = -0.503448, z = 0.0
+[Electron 110] injected successfully.
+[Electron 111] x = -0.465517, y = -0.517241, z = 0.0
+[Electron 111] injected successfully.
+[Electron 112] x = -0.477931, y = -0.531034, z = 0.0
+[Electron 112] injected successfully.
+[Electron 113] x = -0.490345, y = -0.544828, z = 0.0
+[Electron 113] injected successfully.
+[Electron 114] x = -0.502759, y = -0.558621, z = 0.0
+[Electron 114] injected successfully.
+[Electron 115] x = -0.515172, y = -0.572414, z = 0.0
+[Electron 115] injected successfully.
+[Electron 116] x = -0.527586, y = -0.586207, z = 0.0
+[Electron 116] injected successfully.
+[Electron 117] x = -0.54, y = -0.6, z = 0.0
+[Electron 117] injected successfully.
+[Electron 118] x = -0.552414, y = -0.613793, z = 0.0
+[Electron 118] injected successfully.
+[Electron 119] x = -0.564828, y = -0.627586, z = 0.0
+[Electron 119] injected successfully.
+[Electron 120] x = -0.577241, y = -0.641379, z = 0.0
+[Electron 120] injected successfully.
+[Electron 121] x = -0.589655, y = -0.655172, z = 0.0
+[Electron 121] injected successfully.
+[Electron 122] x = -0.602069, y = -0.668966, z = 0.0
+[Electron 122] injected successfully.
+[Electron 123] x = -0.614483, y = -0.682759, z = 0.0
+[Electron 123] injected successfully.
+[Electron 124] x = -0.626897, y = -0.696552, z = 0.0
+[Electron 124] injected successfully.
+[Electron 125] x = -0.63931, y = -0.710345, z = 0.0
+[Electron 125] injected successfully.
+[Electron 126] x = -0.651724, y = -0.724138, z = 0.0
+[Electron 126] injected successfully.
+[Electron 127] x = -0.664138, y = -0.737931, z = 0.0
+[Electron 127] injected successfully.
+[Electron 128] x = -0.676552, y = -0.751724, z = 0.0
+[Electron 128] injected successfully.
+[Electron 129] x = -0.688966, y = -0.765517, z = 0.0
+[Electron 129] injected successfully.
+[Electron 130] x = -0.701379, y = -0.77931, z = 0.0
+[Electron 130] injected successfully.
+[Electron 131] x = -0.713793, y = -0.793103, z = 0.0
+[Electron 131] injected successfully.
+[Electron 132] x = -0.726207, y = -0.806897, z = 0.0
+[Electron 132] injected successfully.
+[Electron 133] x = -0.738621, y = -0.82069, z = 0.0
+[Electron 133] injected successfully.
+[Electron 134] x = -0.751034, y = -0.834483, z = 0.0
+[Electron 134] injected successfully.
+[Electron 135] x = -0.763448, y = -0.848276, z = 0.0
+[Electron 135] injected successfully.
+[Electron 136] x = -0.775862, y = -0.862069, z = 0.0
+[Electron 136] injected successfully.
+[Electron 137] x = -0.788276, y = -0.875862, z = 0.0
+[Electron 137] injected successfully.
+[Electron 138] x = -0.80069, y = -0.889655, z = 0.0
+[Electron 138] injected successfully.
+[Electron 139] x = -0.813103, y = -0.903448, z = 0.0
+[Electron 139] injected successfully.
+[Electron 140] x = -0.825517, y = -0.917241, z = 0.0
+[Electron 140] injected successfully.
+[Electron 141] x = -0.837931, y = -0.931034, z = 0.0
+[Electron 141] injected successfully.
+[Electron 142] x = -0.850345, y = -0.944828, z = 0.0
+[Electron 142] injected successfully.
+[Electron 143] x = -0.862759, y = -0.958621, z = 0.0
+[Electron 143] injected successfully.
+[Electron 144] x = -0.875172, y = -0.972414, z = 0.0
+[Electron 144] injected successfully.
+[Electron 145] x = -0.887586, y = -0.986207, z = 0.0
+[Electron 145] injected successfully.
+[Electron 146] x = -0.9, y = -1, z = 0.0
+[Electron 146] injected successfully.
+Checkpoint: Electron injection loop completed.
+Checkpoint2
+Checkpoint3
+
+[anodeL]
+  積分電荷量: -0.0304198 fC
+  ゲイン     : -1.30059
+
+[anodeC]
+  積分電荷量: 0.0509931 fC
+  ゲイン     : 2.1802
+
+[anodeR]
+  積分電荷量: -0.0123617 fC
+  ゲイン     : -0.528523
+→ 結果ファイル書き出し: results/VA300_VC5200_20250805-125053/gain_summary.txt
+Saved: results/VA300_VC5200_20250805-125053/signal_anodeL.pdf
+Saved: results/VA300_VC5200_20250805-125053/signal_anodeC.pdf
+Saved: results/VA300_VC5200_20250805-125053/signal_anodeR.pdf

@@ -1,0 +1,57 @@
+① 電極構成と電場定義
+② 重み電場の定義（信号を検出する電極指定）
+③ 電子の初期位置と運動の設定
+④ 電子のドリフト・拡散・増幅シミュレーション
+⑤ 時系列での速度と位置を取得
+⑥ Ramoの定理で電流を計算
+⑦ Sensorオブジェクトに記録
+⑧ 波形表示 or データ出力
+
+順に説明する。
+1. 電場と検出器構成の定義(ComponentAnalyticField)
+cmp->AddWire(...);        // ワイヤー電極の追加
+cmp->AddPlaneY(...);      // カソード面の追加
+cmp->SetMedium(&gas);     // ガスと関連づける
+
+2. センサーに観測電極を指定(Sensor::AddElectrode())
+sensor->AddComponent(cmp);
+sensor->AddElectrode(cmp, "sense");
+
+このセンサーは電極上の誘導王電流（信号）のみを計算対象とする。
+このときGarfieldは「重み電場」を計算。
+
+3. 電子の発生位置と時刻の設定（AvalancheElectron()）
+aval->AvalancheElectron(x0, y0, z0, t0, 0., 0., 0.);
+
+電子がこの位置にいると仮定し時刻t0から追跡を始める。
+
+4. 電子のドリフト・拡散・増幅
+この時点でGarfieldは、
+    3次元の電場からドリフトベクトルを計算
+    ドリフトステップごとに次の位置と時間を積分
+    拡散を加味（ランダムウォーク）
+    電場が十分強ければTownsend増幅を実行
+        ２次電子を生成し、さらにそれを追跡
+これらのプロセスを１電子ずつ行う。
+
+5. 速度\vec{v(t)}と重み電場\vec{E_w}の計算
+    各時間ステップごとに
+        電子の位置\vec{r(t)}
+        局所電場から\vec{v(t)}
+        ComponentAnalyticFieldから\vec{E_w(\vec{r(t)})}を計算する。
+
+6. Ramoの定理で誘導電流を計算
+    i(t) = -q ・　\vec{v(t)} ・ \vec{E_w(t)}
+        qは電子の電荷
+        この値がその瞬間の電流となる
+
+7. Sensorに電流を記録する。(Sensor::AddSignal())
+Garfieldは、i(t)をタイムビンに蓄積する。
+複数電子が同時に動くと各電子の寄与が加算。
+
+8. 信号波形を出力
+view->SetSensor(sensor);
+view->PlotSignal("sense");
+
+ViewSignalはセンサーに保存された電流 vs 時間のデータをプロット
+
