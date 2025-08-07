@@ -108,7 +108,6 @@ int main(int argc, char* argv[]) {
   // --- 電気力線を描画 ---
   view.PlotFieldLines(xSeeds, ySeeds, zSeeds, false, false);
 
-  // --- PDF出力 ---
   canvas->SaveAs("MWDC_LAS_Field.pdf");
 
   app.Run(kTRUE);
